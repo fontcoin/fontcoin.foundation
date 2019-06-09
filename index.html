@@ -24,15 +24,19 @@
 
         body {
             font-family: 'Source Serif Pro', serif;
-            max-width: 55rem;
+            max-width: 57rem;
             width: 100%;
             font-size: 2.4rem;
             margin: auto;
-            padding: 2rem;
+            padding: 5rem 3rem;
         }
 
         code {
             font-family: 'Source Code Pro', monospace;
+            background-color: rgba(250, 30, 200, 0.07);
+            border-radius: 0.4rem;
+            padding: 0 0.4rem;
+            font-size: 0.92em;
         }
 
         ol {
@@ -57,6 +61,16 @@
             text-align: center;
             margin-top: 5rem;
             color: rgb(255, 30, 200);
+        }
+
+        @media (max-width: 640px) {
+            html {
+                font-size: 50%;
+            }
+
+            ol {
+                padding-left: 6rem;
+            }
         }
     </style>
 </head>
